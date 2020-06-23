@@ -6,8 +6,8 @@ module.exports = {
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$',
   testPathIgnorePatterns: ['/node_modules/', '/helpers/'],
   modulePaths: ['<rootDir>/src', '<rootDir>/test'],
-  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node', 'scss'],
   moduleNameMapper: {
-    '\\.(css|sass)$': 'identity-obj-proxy',
+    '\\.(css|sass|module)$': 'identity-obj-proxy',
   },
 };
